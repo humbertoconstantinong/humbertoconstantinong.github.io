@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Este é um portfólio com design retro, inspirado nos primórdios da internet. A estética "feia" é intencional, buscando uma experiência nostálgica. -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Humberto Constantino - Portfólio</title>
     <style>
         body {
-            background-color: #000;
-            color: #00FF00;
-            font-family: 'Courier New', Courier, monospace;
+            background-color: #f4f4f4;
+            color: #333;
+            font-family: Arial, sans-serif;
             text-align: center;
             margin: 20px;
         }
 
-        h1 {
-            color: #FFFF00;
+        h1, h2 {
+            color: #222;
         }
 
         a {
-            color: #00FF00;
+            color: #007bff;
             text-decoration: none;
         }
 
@@ -28,32 +27,40 @@
         }
 
         .project {
-            margin-bottom: 20px;
-            padding: 10px;
-            border: 1px solid #00FF00;
+            margin-bottom: 40px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: left;
         }
-        
-        #retro-note {
-            color: #FF0000;
+
+        #note {
+            color: #777;
             font-size: 14px;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
 
         #experience-btn {
-            background-color: #00FF00;
-            color: #000;
+            background-color: #007bff;
+            color: #fff;
             padding: 10px 20px;
             border: none;
             text-decoration: none;
             font-size: 16px;
-            margin-top: 20px;
-            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        #experience-btn:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
 
-    <div id="retro-note">Este site possui um design retro, intencionalmente "feio" para relembrar os primórdios da internet. A estética é proposital e busca uma experiência nostálgica.</div>
+    <div id="note">Este é o portfólio de Humberto Constantino.</div>
 
     <h1>Humberto Constantino</h1>
 
@@ -65,7 +72,7 @@
 
     <div class="project">
         <h2>Cheguei mamãe - (Angular & Adonis.js)</h2>
-        <p>Desenvolvi um sistema de gestão personalizado para condutores escolares, simplificando o cadastro de alunos e escolas. Este projeto oferece uma experiência eficiente, permitindo aos condutores adicionar alunos após registrar pelo menos uma escola, coletando dados essenciais e proporcionando uma navegação simplificada até a residência do aluno por meio do Waze. Com foco na praticidade e organização, o sistema contribui para a eficácia do transporte escolar, facilitando o dia a dia dos condutores e garantindo a segurança dos alunos.</p>
+        <p>Desenvolvi um sistema de gestão personalizado para condutores escolares, simplificando o cadastro de alunos e escolas.</p>
         <a href="https://chegueimamae.com.br" target="_blank">Sistema </a>|
         <a href="https://github.com/humbertoconstantinong/rotakidsapp" target="_blank">GitHub Frontend </a>|
         <a href="https://github.com/humbertoconstantinong/rotakidsapi" target="_blank">GitHub Backend</a>
