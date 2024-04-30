@@ -1,138 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Humberto Constantino - Portfólio</title>
-    <style>
-        body {
-            background-color: #000;
-            color: #00FF00;
-            font-family: 'Courier New', Courier, monospace;
-            text-align: center;
-            margin: 20px;
-        }
 
-        h1 {
-            color: #FFFF00;
-        }
+  <head>
 
-        h2 {
-            color: #00FF00;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            margin-bottom: 5px;
-        }
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-        p {
-            text-align: left;
-            margin: 10px;
-        }
+    <title>Humberto Constantino</title>
 
-        a {
-            color: #00FF00;
-            text-decoration: none;
-        }
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-        a:hover {
-            text-decoration: underline;
-        }
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
-        .project, .experience {
-            margin-bottom: 40px;
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            background-color: #111;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            text-align: left;
-        }
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
 
-        #retro-note, #note {
-            color: #FF0000;
-            font-size: 14px;
-            margin-bottom: 20px;
-        }
+  </head>
 
-        .company-logo {
-            max-width: 30px;
-            max-height: 30px;
-        }
+  <body id="page-top">
 
-        #experience-btn {
-            background-color: #00FF00;
-            color: #000;
-            padding: 10px 20px;
-            border: none;
-            text-decoration: none;
-            font-size: 16px;
-            margin-top: 20px;
-            cursor: pointer;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
+    <nav class="navbar navbar-expand-lg navbar-dark  fixed-top" style="background-color: #8b0000;" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="https://i.imgur.com/6DdQ9ng.png" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experiência</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Formação</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Habilidades</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a> -->
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-        #experience-btn:hover {
-            background-color: #005500;
-        }
-    </style>
-</head>
-<body>
+    <div class="container-fluid p-0">
 
-    <div id="retro-note">Este site possui um design retro, intencionalmente "feio" para relembrar os primórdios da internet. A estética é proposital e busca uma experiência nostálgica.</div>
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Humberto
+            <span class="" style="color: #8b0000;">Constantino</span>
+          </h1>
+          <div class="subheading mb-5"> (81) 9.9650-8970 ·
+            <a href="mailto:name@email.com">humbertoconstantino73@gmail.com</a>
+          </div>
+          <p class="mb-5">Olá, sou Humberto, Desenvolvedor Front-end com 6 anos de experiência. Meu foco principal tem sido o framework Angular (2+), no qual adquiri conhecimentos sólidos e me destaquei nas empresas onde trabalhei. Uma das áreas em que me destaco é em testes unitários, garantindo a qualidade e a robustez das aplicações que desenvolvo. Mais detalhes sobre minhas habilidades e projetos serão apresentados nas próximas sessões do meu portfólio.</p>
+          <ul class="list-inline list-social-icons mb-0">
+            <!-- <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li> -->
+            <!-- <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a> -->
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/humberto-constantino-8b6243184/" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/humbertoconstantinong" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-    <h1>Humberto Constantino</h1>
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Experiências</h2>
 
-    <div class="project">
-        <h2>Pokémon TCG - (Angular)</h2>
-        <p>Projeto que simula uma parte de um jogo de cartas "TCG" - "trading card games" baseado no animê Pokémon.</p>
-        <a href="https://github.com/humbertoconstantinong/pokemontcg" target="_blank">GitHub</a>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">
+                Analista Pl Desenvolv. Solução de TI</h3>
+              <div class="subheading mb-3">EY · Ernest Young</div>
+              <p>Na consultoria EY, desempenho um papel crucial no desenvolvimento front-end utilizando Angular para um cliente de grande porte. Minhas principais responsabilidades incluíram a implementação de novos recursos e aprimoramentos, além de garantir a qualidade do código por meio de testes unitários abrangentes.
+
+                Investi significativamente na melhoria da base de código existente, refatorando componentes para aumentar a manutenibilidade e o desempenho da aplicação. Adotei práticas ágeis de desenvolvimento, colaborando de perto com a equipe para resolver desafios técnicos e garantir o sucesso do projeto.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Dezembro 2022 - Atual</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Angular Developer</h3>
+              <div class="subheading mb-3">Itaú Unibanco · Terceirizado</div>
+              <p>Colaborei em uma equipe dedicada ao projeto de Formalização Remota no banco, onde desempenhei um papel central na criação de Webviews específicas para formalizações remotas. Essas Webviews foram integradas e exibidas no aplicativo desenvolvido em Angular para as plataformas Android e IOS do banco Itaú. Minha contribuição foi essencial para viabilizar a formalização de processos de maneira remota, garantindo uma experiência fluida e segura para os clientes. Esse trabalho me permitiu aprimorar minhas habilidades técnicas, especialmente em desenvolvimento com Angular, e proporcionou uma oportunidade valiosa de contribuir diretamente para a modernização e eficiência dos serviços bancários.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Agosto 2022 · Dezembro 2022</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Angular Developer</h3>
+              <div class="subheading mb-3">Santander Brasil · Terceirizado</div>
+              <p>Integrei uma equipe dedicada ao projeto de Agronegócios em um banco renomado, onde desempenhei um papel crucial no desenvolvimento de sistemas para empréstimos, tanto pré como pós-fixados, e outras soluções financeiras. Minha responsabilidade envolvia a criação e aprimoramento de plataformas tecnológicas que facilitavam o acesso a crédito para o setor agrícola, garantindo eficiência e transparência nos processos. Trabalhar nesse ambiente dinâmico e desafiador me proporcionou a oportunidade de aprimorar minhas habilidades técnicas e de comunicação, além de contribuir diretamente para o avanço e o sucesso do setor de Agronegócios.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Junho 2021 - Agosto 2022</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Desenvolvedor Jr</h3>
+              <div class="subheading mb-3">CFI · Consultoria Financeira Inteligente LTDA</div>
+              <p>Como desenvolvedor júnior, contribuí em projetos que usavam Django, PHP e Angular. Trabalhei em tarefas básicas como desenvolvimento de funcionalidades simples, correção de bugs e melhorias nos sistemas. Adquiri conhecimentos em modelagem de banco de dados com Django, processamento de formulários em PHP e implementação de interfaces simples em Angular. Estou comprometido em aprender e crescer na área de desenvolvimento web.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Abril 2021 - Julho 2021</span>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Formação</h2>
+
+         
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">FAMESP · Faculdade Metropolitana do Estado de São Paulo</h3>
+              <div class="subheading mb-3">PÓS-GRADUAÇÃO</div>
+              <p>Ciência de Dados e Big Data Analytics</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2002 - May 2006</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">IESO · Instituto de Ensino Superior de Olinda</h3>
+              <div class="subheading mb-3">Graduação</div>
+              <div>Análise e Desenvolvimento de Sistemas</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2006 - May 2010</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Habilidades</h2>
+
+          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <i class="devicons devicons-angular"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-html5"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-css3"></i>
+            </li>
+            <!-- <li class="list-inline-item">
+              <i class="devicons devicons-typescript"></i>
+            </li> -->
+            <li class="list-inline-item">
+              <i class="devicons devicons-javascript"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-sass"></i>
+            </li>
+            <!-- <li class="list-inline-item">
+              <i class="devicons devicons-tailwindcss"></i>
+            </li> -->
+            <li class="list-inline-item">
+              <i class="devicons devicons-bootstrap"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-npm"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-angularmaterial"></i>
+            </li>
+          </ul>
+
+          <div class="subheading mb-3">Workflow</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <li>
+                <i class="fa-li fa fa-check"></i>
+               Testes unitários com Karma &amp; Jasmine
+              </li><li>
+               <i class="fa-li fa fa-check"></i>
+               Jenkins</li>
+               <li>
+              </li><li>
+               <i class="fa-li fa fa-check"></i>
+               Mobile-First, Desing Responsivo</li>
+               <li>
+                 <i class="fa-li fa fa-check"></i>
+                 Desenvolvimento Ágil · Scrum</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-5">Interests</h2>
+          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+        <div class="my-auto">
+          <h2 class="mb-5">Awards &amp; Certifications</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Google Analytics Certified Developer</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Mobile Web Specialist - Google Certification</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup>
+              Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup>
+              Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              2<sup>nd</sup>
+              Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
+            <li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup>
+              Place - James Buchanan High School - Hackathon 2006</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              3<sup>rd</sup>
+              Place - James Buchanan High School - Hackathon 2005</li>
+          </ul>
+        </div>
+      </section>
+
     </div>
 
-    <div class="project">
-        <h2>Cheguei mamãe - (Angular & Adonis.js)</h2>
-        <p>Desenvolvi um sistema de gestão personalizado para condutores escolares, simplificando o cadastro de alunos e escolas.</p>
-        <a href="https://chegueimamae.com.br" target="_blank">Sistema </a>|
-        <a href="https://github.com/humbertoconstantinong/rotakidsapp" target="_blank">GitHub Frontend </a>|
-        <a href="https://github.com/humbertoconstantinong/rotakidsapi" target="_blank">GitHub Backend</a>
-    </div>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <div class="experience">
-        <h2>
-            <img class="company-logo" src="https://assets.ey.com/content/dam/ey-sites/ey-com/en_us/webcast/ey-logo-black.jpg" alt="Logo da EY"> EY - Analista Pl Desenvolv. Solução de TI
-        </h2>
-        <p>Analista Pleno de Desenvolvimento de Soluções de TI na EY desde dezembro de 2022. Atuo nas competências de JIRA, Angular (Framework) e Scrum.</p>
-        <h6 style="color: #FF0000;">Por definição contrato, não posso divulgar o projeto e nem o nome do cliente.</h6>
-    </div>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <div class="experience">
-        <h2>
-            <img class="company-logo" src="https://i.imgur.com/jQtZqOw.png" alt="Logo do Itaú Unibanco"> Itaú Unibanco - Cliente TCS- Desenvolvedor de Front-end - Angular
-        </h2>
-        <p>Desenvolvedor de front-end terceirizado para o Itaú Unibanco, atuando de agosto de 2022 a dezembro de 2022. Participei do projeto de Formalização Remota no banco, criando Webviews referentes a formalizações remotas exibidas nos aplicativos móveis Android e iOS.</p>
-        <p>Competências incluem Amazon Web Services, Kotlin, JIRA, HTML5, CSS e Angular.</p>
-    </div>
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
 
-    <div class="experience">
-        <h2>
-            <img class="company-logo" src="https://logodownload.org/wp-content/uploads/2017/05/banco-santander-logo-40.png" alt="Logo do Santander Brasil"> Santander Brasil - Cliente TCS- Desenvolvedor de Front-end - Angular
-        </h2>
-        <p>Desenvolvedor de front-end terceirizado para o Santander Brasil, atuando de agosto de 2021 a agosto de 2022. Participei de uma equipe onde atuávamos no projeto de Agronegócios do banco.</p>
-        <p>Competências incluem Jenkins, TypeScript, JIRA, Scrum, HTML5, CSS e Angular.</p>
-    </div>
+  </body>
 
-    <div class="experience">
-        <h2>
-            <img class="company-logo" src="https://media.licdn.com/dms/image/C4D0BAQE5mn9eH1gt4Q/company-logo_200_200/0/1678776851607/cfi_consultoria_financeira_inteligente_ltda_logo?e=1712793600&v=beta&t=PRg7jlnEHuPRzGh7whiKhXtihB1Oo2g1GM32fJbTRkQ" alt="Logo da CFI"> CFI - Consultoria Financeira Inteligente LTDA - Desenvolvedor Fullstack Jr
-        </h2>
-        <p>Desenvolvedor Fullstack Junior na CFI - Consultoria Financeira Inteligente LTDA de abril de 2021 a julho de 2021. Atuei no Recife, Pernambuco, Brasil.</p>
-        <p>Competências incluem Android Studio, Kotlin, Jasmine Framework, Jenkins, JIRA, Angular (Framework), Jest, Scrum e HTML5.</p>
-    </div>
-
-    <!-- Botão para a página de experiências -->
-    <a id="experience-btn" href="experience.html">Ver Experiências</a>
-
-</body>
 </html>
